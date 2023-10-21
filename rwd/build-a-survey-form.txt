@@ -1,0 +1,88 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css"
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thanks for taking this survey so we can learn about you<p>
+      <form id="survey-form" action="http://www.example.com/profile.php" method="post">
+      <p>Name</p>
+      <input id="name" placeholder="name_input" label="name-label" type="text" required="required" value="Enter your name here">
+            <label id="name-label"></input>
+      <p>Email</p>
+            <input id="email" placeholder="email_input" type="email" required="required" value="Enter your email address here"></input>
+                 <label id="email-label"> 
+                  <p>Age</p>
+            <input id="number" placeholder="number_input" label="number-label" type="number" value="Enter a number" min="18" max="115">
+                  <label id="number-label"> </input>
+                  <p>Please select your favorite pizza topping</p>
+            <select id="dropdown"">
+              <option>cheese</option>
+              <option>sausage</option>
+            </select>
+            <br>
+            <br>
+            <fieldset>
+              <br>
+              <p>Favorite Symbol Character?</p>
+              <input type="checkbox" name="!" value="!"
+              <label>!</label>
+                            <input type="checkbox" name="@" value="@"
+              <label>@</label>
+                            <input type="checkbox" name="$" value="$"
+              <label>$</label>
+            </fieldset>
+            <fieldset>
+                          <p>Favorite RGB color?</p>
+              <input type="radio" name="RGB" value="Red" <label>Red</label>
+              <input type="radio" name="RGB" value="Blue" <label>Blue</label>
+              <input type="radio" name="RGB" value="Green" <label>Green</label>
+
+            </fieldset>
+            <br>           <p>Comments?</p>
+            <textarea>
+
+              </textarea>
+            <br>
+            <br>
+            <button id="submit">Submit</button>
+      </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  text-align: center;
+  outline: 1px solid black;
+  background: rgb(225,240,205);
+}
+
+body p {
+  font-weight: 700;
+  text-shadow: 1px 1px yellow;
+}
+
+h1 {
+  color: white;
+  background: black;
+}
+
+button:active {
+  font-weight: 600;
+  background-color:black;
+  color: white;
+  box-shadow: inset;
+}
+
+fieldset {
+  border: none;
+}
+
+** end of undefined **
+

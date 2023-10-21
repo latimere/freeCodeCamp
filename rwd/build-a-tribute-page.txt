@@ -1,0 +1,42 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tribute page for Linus Torvalds</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Linus Torvalds</h1>
+      <p> The Linux kernel and Git source control guy</p>
+    </header>
+    <main id="main">
+      <figure id="img-div">
+        <img src="blank" id="image">
+        <figcaption id="img-caption">blank photo</figcaption>
+      </figure>
+      <section id="tribute-info">
+        <p>Linus Benedict Torvalds was born on December 28th 1969.</p>
+        <p>He was declared a genius by his parents at the age of 2.5 years old.</p>
+        <p>He graduated form the University of Helsinki.</p>
+        <p>He became a naturalized United States citizen in 2010.</p>
+      </section>
+      <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Linus_Torvalds">Wiki<a>
+    </main>
+
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+** end of undefined **
+

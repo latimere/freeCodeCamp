@@ -42,6 +42,6 @@ define `function` that takes the `variable` as an argument and it's `Boolean` co
 
 test the `variable` and it's `Boolean` condition for `true` or `false` using `if` statements
 
-## Step 4
+### Step 4
 
 print results ie.... the `return` value from either `if` statement is evaluated within the function and the returns are printed (from the correspponding `Boolean` condition)

@@ -1,13 +1,13 @@
 # Use Conditional Logic with If Statements
 
 `If` statements are used to make decisions in code. The keyword `if`
-tells JavaScript to execute the code in the curly braces
+tells JavaScript to execute the code in the curly brackets
 under certain conditions, defined in the parentheses. These conditions
 are known as `Boolean` conditions because they may *only be true or false*.
 
 When the condition evaluates to `true`, the program *executes
-the statement inside the curly braces*. When the `Boolean` condition
-evaluates to `false`, the *statement inside the curly braces will not execute*.
+the statement inside the curly brackets*. When the `Boolean` condition
+evaluates to `false`, the *statement inside the curly brackets will not execute*.
 
 
 ## Example
@@ -28,10 +28,20 @@ function trueOrFalse(testVariableBooleanCondition) {
 }
 console.log(trueOrFalse(testVariableBooleanCondition));
 ```
-### Explaination / Pseudocode
+## Explaination / Pseudocode
 
-define the 'variable' as 'true' or 'false'
+### Step 1
 
-'function' takes the 'variable' as an argument and it's 'boolean' condition testing it for 'true' or 'false' using 'if' statements
+define the `variable` as `true` or `false`
 
-results are then printed ie.... the 'return' value from either 'if' statement is printed (from the tested boolean condition)
+### Step 2
+
+define `function` that takes the `variable` as an argument and it's `Boolean` condition 
+
+### Step 3
+
+test the `variable` and it's `Boolean` condition for `true` or `false` using `if` statements
+
+## Step 4
+
+print results ie.... the `return` value from either `if` statement is evaluated within the function and the returns are printed (from the correspponding `Boolean` condition)

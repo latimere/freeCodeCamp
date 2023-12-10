@@ -1,5 +1,90 @@
 /* Retro Snake Game (a modified freeCodeCamp tutorial) */
 
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Pixelify Sans', sans-serif;
     background: white;
+}
+
+body, .snake {
+    background-color: rgb(170,170,170)
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(20, 20px);
+    margin: 5px;
+    background-color: white;
+} 
+
+.game-border-1 {
+    border: rgb(70,70,0) solid 10px;
+    box-shadow: inset 0 0 0 10px rgb(70,70,0); 
+}
+
+.game-border-2 {
+    border: rgb(130,130,0) solid 10px;
+    box-shadow: inset 0 0 0 10px rgb(130,130,0); 
+}
+
+.game-border-3 {
+    border: rgb(90,90,0) solid 10px;
+    box-shadow: inset 0 0 0 10px rgb(90,90,0); 
+}
+
+#instruction-text {
+    position: absolute;
+    top: 80%;
+    color: rgb(23,23,23);
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    z-index: 1;
+    font-size: 30px;
+    width: 400px;
+    padding: 30px;
+}
+
+.scores {
+    display: flex;
+    justify-content: space-between;
+}
+
+#score, #highScore {
+    font-size: 50px;
+    font-weight: 900;
+    margin: 10px, 0;
+}
+
+#highScore {
+    color: lightgoldenrodyellow;
+    display: none;
+}
+
+#highScoreText {
+    display: none;
+    color: lightgoldenrodyellow;
+}
+
+.game-border-3, #logo { 
+    border-color: lightgoldenrodyellow;
+}
+
+.snake {
+    border: rgb(70,70,0); 
+}
+
+.food {
+    background-color:black;
+    border: rgb(130,130,0) 5px solid;
+}
+
+#logo {
+    position: absolute;
+    width: 400px;
 }

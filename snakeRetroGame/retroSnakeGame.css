@@ -45,13 +45,12 @@ body {
 
 #instruction-text {
     position: absolute;
-    top: 80%;
     color: rgb(23,23,23);
     text-align: center;
     text-transform: capitalize;
     margin: 0;
     z-index: 1;
-    font-size: 30px;
+    font-size: 18px;
     width: 400px;
     padding: 30px;
 }
@@ -84,5 +83,4 @@ body {
   
   #logo {
     position: absolute;
-    top: 30%;
   }

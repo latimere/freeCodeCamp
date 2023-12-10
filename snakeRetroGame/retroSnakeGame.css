@@ -8,21 +8,27 @@ body {
     margin: 0;
     font-family: 'Pixelify Sans', sans-serif;
     background: white;
-}
+  }
+  
+  body {
+    background-color: rgb(170,170,170);
+  }
 
-body, .snake {
-    background-color: rgb(170,170,170)
-}
-
-#game-board {
+  .snake{
+    background: linear-gradient(217deg, rgba(0,170,0), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0,255,0), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0,80,0), rgba(0,0,255,0) 70.71%);
+  }
+  
+  #game-board {
     display: grid;
-    grid-template-columns: repeat(20, 20px);
-    grid-template-rows: repeat(20, 20px);
+    grid-template-columns: repeat(22, 22px);
+    grid-template-rows: repeat(22, 22px);
     margin: 5px;
     background-color: white;
-} 
-
-.game-border-1 {
+  }
+  
+  .game-border-1 {
     border: rgb(70,70,0) solid 10px;
     box-shadow: inset 0 0 0 10px rgb(70,70,0); 
 }
@@ -49,42 +55,34 @@ body, .snake {
     width: 400px;
     padding: 30px;
 }
-
-.scores {
+  
+  .scores {
     display: flex;
     justify-content: space-between;
-}
-
-#score, #highScore {
+  }
+  
+  #score,
+  #highScore {
     font-size: 50px;
     font-weight: 900;
-    margin: 10px, 0;
-}
-
-#highScore {
+    margin: 10px 0;
+  }
+  
+  #highScore {
     color: lightgoldenrodyellow;
     display: none;
-}
-
-#highScoreText {
-    display: none;
-    color: lightgoldenrodyellow;
-}
-
-.game-border-3, #logo { 
-    border-color: lightgoldenrodyellow;
-}
-
-.snake {
-    border: rgb(70,70,0); 
-}
-
-.food {
-    background-color:black;
-    border: rgb(130,130,0) 5px solid;
-}
-
-#logo {
+  }
+  
+  .game-border-3,
+  #logo {
+    background-color: lightgoldenrodyellow;
+  }
+  
+  .food {
+    background-color: black;
+  }
+  
+  #logo {
     position: absolute;
-    width: 400px;
-}
+    top: 30%;
+  }
